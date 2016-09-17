@@ -58,10 +58,6 @@ border-radius: 10px;
 ul{
 margin: auto;
 padding-top: 4px;
-border-radius: 10px 10px 10px 10px;
-border-radius: 10px 10px 10px 10px;
-border-radius: 10px 10px 10px 10px;
-border: 0px solid #000000;
 }
 
 li{
@@ -91,6 +87,7 @@ aside{
 	height: 600px;
 	float: left;
 	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
     
@@ -114,6 +111,14 @@ p{
 	line-height: 24px;
 	padding: 10px;
 	text-align: justify;
+}
+
+div{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	
 }
 
 
