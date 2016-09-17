@@ -52,13 +52,16 @@ header{
 nav{
 width: 1000px;
 height: 50px;
-background: red;
 border-radius: 10px;
 
 }
 ul{
 margin: auto;
 padding-top: 4px;
+border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
 }
 
 li{
@@ -69,16 +72,17 @@ li{
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset; 
-
+   
 }
 
 section{
 	width: 700px;
-	background: gray;
+	background: white;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
+	
 }
 aside{
 
@@ -89,12 +93,14 @@ aside{
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
+    
 }
+
 
 footer{
 width: 1000px;
 height: 70px;
-background: maroon;
+background: black;
 float: left;
 margin-top: 20px;
 border-radius: 10px;
