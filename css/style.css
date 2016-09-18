@@ -18,7 +18,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-color: black;
 }
-
+/*
 h1{
 font-family: 'Shadows Into Light', cursive;
 color: white;
@@ -34,7 +34,7 @@ margin-left: 10px;
 font-size: 20px;
 text-align: left; 
 }
-
+*/
 h3{
 font-family: 'Shadows Into Light', cursive;;
 color: white;
@@ -58,6 +58,7 @@ border-radius: 10px;
 ul{
 margin: auto;
 padding-top: 4px;
+background: #ff6600;
 }
 
 li{
@@ -78,12 +79,13 @@ section{
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
+	background: #ff6200;
 	
 }
 aside{
 
 	width: auto;
-	background: white;
+	background: #ff6600;
 	height: 600px;
 	float: left;
 	margin-left: 20px;
@@ -123,19 +125,22 @@ div{
 
 
 
+
+
+
+
 /*CLASES*/
 
 .ancho_menu_home{width: auto;}
 .ancho_menu_paginas{width: auto;}
-
 .menu:link{color: #e7a61a; text-decoration: none;}
 .menu:visited{color: #e7a61a; text-decoration: none;}
 .menu:hover{color: #e7a61a; text-decoration: none; text-shadow: 0 0 13px red;}
 .menu:active{color: #e7a61a; text-decoration: none;}
 
+
 .ancho_lado_home{width: auto;}
 .ancho_lado_paginas{width: auto;}
-
 .lado:link{color: #e7a61a; text-decoration: none;}
 .lado:visited{color: #e7a61a; text-decoration: none;}
 .lado:hover{color: #e7a61a; text-decoration: none; text-shadow: 0 0 13px red;}
