@@ -15,8 +15,8 @@
 /*ETIQUETAS*/
 body{
 background-repeat: no-repeat;
-background-size: cover;
-background-color: black;
+background-size: auto;
+background-color: white;
 }
 /*
 h1{
@@ -50,14 +50,14 @@ header{
 }
 
 nav{
-width: 1000px;
+width: auto;
 height: 50px;
 border-radius: 10px;
 
 }
 ul{
 margin: auto;
-padding-top: 4px;
+padding-top: auto;
 background: #ff6600;
 }
 
@@ -103,6 +103,7 @@ margin-top: auto;
 border-radius: auto;
 margin-bottom: auto;
 margin-right: auto;
+background-color: black;
 }
 
 p{
