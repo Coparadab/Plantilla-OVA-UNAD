@@ -2,8 +2,8 @@
  font-family: 'Indie Flower', cursive;
 */
 
-#contenidos{
-	width: 1000px;
+#contenidos{	
+	width: auto;
 	height: auto;
 	margin: auto;
 	position: relative;
@@ -14,16 +14,16 @@
 
 /*ETIQUETAS*/
 body{
-background-image: url(../img/fondo.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+background-color: black;
 }
 
 h1{
 font-family: 'Shadows Into Light', cursive;
 color: white;
-margin-left: 10px;
-font-size: 60px;
+margin-left: auto;
+font-size: auto;
 text-align: center; 
 }
 
@@ -44,9 +44,9 @@ text-align: center;
 
 
 header{
-	width: 1000px;
-	height: 120 px;
-	background: rgba(255, 255, 255, 10,70);
+	width: auto;
+	height: auto;
+	background-color: #e7a61a;
 }
 
 nav{
@@ -72,7 +72,7 @@ li{
 }
 
 section{
-	width: 700px;
+	width: auto;
 	background: white;
 	height: 600px;
 	float: left;
@@ -82,7 +82,7 @@ section{
 }
 aside{
 
-	width: 280px;
+	width: auto;
 	background: white;
 	height: 600px;
 	float: left;
@@ -97,11 +97,10 @@ aside{
 footer{
 width: 1000px;
 height: 70px;
-background: black;
-float: left;
-margin-top: 20px;
+margin-top: 12px;
 border-radius: 10px;
 margin-bottom: 20px;
+margin-right: 30px;
 }
 
 p{
@@ -126,13 +125,21 @@ div{
 
 /*CLASES*/
 
-.ancho_menu_home{width: 900px;}
+.ancho_menu_home{width: auto;}
 .ancho_menu_paginas{width: 970px;}
 
 .menu:link{color: white; text-decoration: none;}
 .menu:visited{color: white; text-decoration: none;}
 .menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
 .menu:active{color: white; text-decoration: none;}
+
+.ancho_lado_home{width: auto;}
+.ancho_lado_paginas{width: 970px;}
+
+.lado:link{color: white; text-decoration: none;}
+.lado:visited{color: white; text-decoration: none;}
+.lado:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.lado:active{color: white; text-decoration: none;}
 
 /*SEUDO CLASES*/
 
